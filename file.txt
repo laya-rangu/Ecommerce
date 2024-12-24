@@ -1,0 +1,13 @@
+<Routes>
+        <Route path="/" element={<Maincomp/>} />
+        <Route path="/login" element={<Sign_in/>} />
+        <Route path="/register" element={<SignUP/>} />
+
+      </Routes>
+
+
+import SignUP from './components/signup_sign/SignUP';
+import Sign_in from './components/signup_sign/SignUP';
+import {Routes,Route} from 'react-router-dom';
+
+import { BrowserRouter } from 'react-router-dom';
